@@ -428,7 +428,7 @@ nav img{
 }
 
 #page4{
-    min-height: 100vh;
+    min-height: 30vh;
     width: 100%;
     background-color: #EFEAE3;
 }
@@ -776,6 +776,25 @@ nav img{
     .elem:hover .overlay{
         top: 0;
     }
+
+    #fixed-img{
+        height: 55vw;
+        width: 40vw;
+        /* background-color: green; */
+        z-index: 99;
+        border-radius: 5%;
+        display: none;
+        position: fixed;
+        left: 50%;
+        top: 22%;
+    }
+
+    #page4{
+        min-height: 0vh;
+        width: 100%;
+        background-color: #EFEAE3;
+    }
 }
+
 
 
