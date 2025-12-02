@@ -27,7 +27,7 @@ html, body{
     background-color: rgba(0, 0, 0, 0.473);
     z-index: 99;
     position: fixed;
-    top: -100%;
+    top: -130%;
     transition: all ease 0.4s;
 }
 
@@ -777,4 +777,5 @@ nav img{
         top: 0;
     }
 }
+
 
